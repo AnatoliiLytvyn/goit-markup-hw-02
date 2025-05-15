@@ -1,0 +1,88 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #434455;
+  background-color: #fff;
+  }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background: #fff;
+  border-bottom: 1px solid #ececec;
+  padding: 20px 0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+  color: #000;
+}
+
+.logo span {
+  color: #2196f3;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 500;
+}
+
+.hero {
+  background: #2f303a;
+  color: white;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.hero h1 {
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 10px 32px;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #2f303a;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer address {
+  font-style: normal;
+  line-height: 1.5;
+}
