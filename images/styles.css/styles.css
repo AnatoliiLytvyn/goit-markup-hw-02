@@ -143,7 +143,6 @@ ul {
   letter-spacing: 0.02em;
 }
 
-/* Accessibility helper class */
 .visually-hidden {
   position: absolute;
   width: 1px;
