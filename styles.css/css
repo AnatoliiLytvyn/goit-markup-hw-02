@@ -1,13 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Inter&family=Roboto:wght@400&display=swap');
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #FFF;
+  background-color: #fff;
   margin: 0;
 }
-
 
 .container {
   max-width: 1440px;
@@ -16,7 +15,6 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
-
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -33,7 +31,6 @@ body {
   margin-left: 4px;
   font-weight: 700;
 }
-
 
 .nav {
   display: flex;
@@ -54,7 +51,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #2e2f42; 
+  color: #2e2f42;
   text-decoration: none;
   transition: color 250ms ease-in-out;
 }
@@ -62,8 +59,8 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+  outline: none;
 }
-
 
 .contact-info {
   margin-top: 8px;
@@ -89,8 +86,21 @@ body {
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
+  outline: none;
 }
 
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
 
 .hero-section {
   padding-top: 188px;
@@ -118,7 +128,6 @@ body {
   text-transform: uppercase;
 }
 
-
 .main-button {
   background-color: #4d5ae5;
   color: #fff;
@@ -136,8 +145,9 @@ body {
 .main-button:hover,
 .main-button:focus {
   background-color: #404bbf;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
 }
-
 
 .features-list {
   list-style: none;
@@ -166,4 +176,82 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #434455;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .contact-list {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .hero-section {
+    padding-top: 120px;
+    padding-bottom: 48px;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 32px;
+  }
+
+  .main-button {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .features-list {
+    max-width: 100%;
+    margin: 48px 0;
+    gap: 24px;
+  }
+
+  .features-list li {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    padding: 20px 0;
+  }
+
+  .logo {
+    font-size: 16px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .contact-link {
+    font-size: 14px;
+  }
+
+  .hero-section h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .main-button {
+    width: 100%;
+    padding: 14px 0;
+  }
 }
