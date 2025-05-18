@@ -4,8 +4,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #fff;
-  font-size: 16px;
+  background-color: #FFF;
   margin: 0;
 }
 
@@ -21,15 +20,12 @@ body {
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
 }
 
 .logo-accent {
@@ -55,10 +51,10 @@ body {
 }
 
 .nav-link {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #2e2f42;
+  color: #2e2f42; 
   text-decoration: none;
   transition: color 250ms ease-in-out;
 }
