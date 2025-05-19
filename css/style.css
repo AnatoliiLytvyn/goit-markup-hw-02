@@ -3,9 +3,14 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #fff;
-  margin: 0;
+}
+
+.logo,
+.logo-accent,
+.footer-logo,
+.footer-logo-accent {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .container {
@@ -260,7 +265,7 @@ body {
 }
 
 :root {
-  --footer-text-color: #f4f4fd;
+footer-text-color: #f4f4fd;
 }
 
 .footer {
@@ -269,21 +274,25 @@ body {
   text-align: center;
 }
 
-.footer .logo {
-  color: #fff;
+.footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
   text-decoration: none;
 }
 
+.footer-logo-accent {
+  color: #f4f4fd;
+}
+
 .footer-text {
-  color: var(--footer-text-color);
-  font-size: 16px;
   line-height: 1.5;
+  color: var(--footer-text-color);
   letter-spacing: 0.02em;
-  margin: 16px auto 0;
   max-width: 300px;
+  margin: 16px auto 0;
 }
