@@ -88,7 +88,6 @@ body {
   outline: none;
 }
 
-
 .visually-hidden {
   position: absolute !important;
   width: 1px !important;
@@ -177,6 +176,109 @@ body {
   color: #434455;
 }
 
+.portfolio {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.portfolio h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 48px;
+  color: #2e2f42;
+}
+
+.portfolio-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.portfolio-list li {
+  width: 100%;
+  max-width: 360px;
+  background-color: #f4f4fd;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 250ms ease-in-out;
+}
+
+.portfolio-list li:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-list img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.portfolio-list h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 16px;
+  color: #2e2f42;
+}
+
+.portfolio-list p {
+  font-size: 16px;
+  margin: 0 16px 16px;
+  color: #434455;
+}
+
+
+.team {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.team h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 48px;
+  color: #2e2f42;
+}
+
+.team-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.team-list li {
+  background-color: #f4f4fd;
+  padding: 16px;
+  text-align: center;
+  max-width: 260px;
+  border-radius: 8px;
+  transition: box-shadow 250ms ease-in-out;
+}
+
+.team-list li:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.team-list h3 {
+  font-size: 18px;
+  margin: 12px 0 4px;
+  color: #2e2f42;
+}
+
+.team-list p {
+  font-size: 14px;
+  color: #434455;
+  margin: 0;
+}
+
 /* Адаптивність */
 @media (max-width: 768px) {
   .nav {
@@ -222,6 +324,16 @@ body {
   }
 
   .features-list li {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .portfolio-list li {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .team-list li {
     max-width: 100%;
     flex: 1 1 100%;
   }
