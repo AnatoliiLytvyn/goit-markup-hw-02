@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Inter&family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -11,8 +11,7 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  max-width: 1440px;
 }
 
 .logo {
@@ -27,25 +26,23 @@ body {
 }
 
 .logo-accent {
-  color: #f4f4fd;
+  color: #2e2f42;
+
   margin-left: 4px;
   font-weight: 700;
 }
 
 .nav {
-  margin-bottom: 16px;
-  text-align: justify;
+  justify-content: space-between;
 }
 
 .nav-list {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
-.nav-list li {
-  margin-right: 24px;
-  float: left;
+.nav-list li:first-child .nav-link {
+  letter-spacing: 0.02em;
 }
 
 .nav-link {
@@ -57,25 +54,20 @@ body {
   transition: color 250ms ease-in-out;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-list li:first-child .nav-link:hover,
+.nav-list li:first-child .nav-link:focus {
   color: #404bbf;
   outline: none;
 }
 
 .contact-info {
   margin-top: 8px;
+  font-style: normal;
 }
 
 .contact-list {
   list-style: none;
   margin: 0;
-  padding: 0;
-}
-
-.contact-list li {
-  margin-right: 16px;
-  float: left;
 }
 
 .contact-link {
@@ -258,7 +250,6 @@ body {
 
   .main-button {
     font-size: 14px;
-    /* width видалено */
   }
 
   .features-list li,
