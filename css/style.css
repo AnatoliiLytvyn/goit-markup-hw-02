@@ -5,10 +5,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.logo,
 .logo-accent,
-.footer-logo,
 .footer-logo-accent {
+  color: #f4f4fd;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
@@ -32,7 +31,6 @@ body {
 
 .logo-accent {
   color: #2e2f42;
-
   margin-left: 4px;
   font-weight: 700;
 }
