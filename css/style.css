@@ -362,7 +362,7 @@ letter-spacing: 0.4
 }
 
 :root {
---text-light-color: #f4f4fd;
+--text-light-color: #F4F4FD;
 }
 
 
@@ -394,7 +394,7 @@ letter-spacing: 0.4
 
 .footer-text {
   line-height: 1.5;
-  color: var(--footer-text-color);
+  color: var(--text-light-color);
   letter-spacing: 0.02em;
   max-width: 300px;
   margin: 16px auto 0;
