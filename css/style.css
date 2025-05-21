@@ -11,8 +11,9 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
+  line-height: 150%;
+  /*line-height: 24px;*/
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #2e2f42;
   text-decoration: none;
@@ -378,11 +379,11 @@ letter-spacing: 0.4
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #4d5ae5;
   text-decoration: none;
 }
