@@ -1,4 +1,3 @@
-/* ===== CSS RESET & BASE ===== */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -35,7 +34,6 @@ img {
   padding: 0 15px;
 }
 
-/* ===== HEADER ===== */
 .page-header {
   display: flex;
   justify-content: space-between;
@@ -89,7 +87,6 @@ nav ul {
   color: #404bbf;
 }
 
-/* ===== HERO ===== */
 .section1 {
   background-color: #2e2f42;
   color: #fff;
@@ -123,7 +120,7 @@ nav ul {
   background-color: #404bbf;
 }
 
-/* ===== FEATURES ===== */
+
 section ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -143,7 +140,7 @@ section ul {
   color: #434455;
 }
 
-/* ===== PORTFOLIO ===== */
+
 .portfolio {
   padding: 60px 0;
 }
@@ -181,7 +178,7 @@ section ul {
   color: #434455;
 }
 
-/* ===== TEAM ===== */
+
 .team {
   padding: 60px 0;
   text-align: center;
@@ -216,7 +213,7 @@ section ul {
   color: #434455;
 }
 
-/* ===== FOOTER ===== */
+
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
