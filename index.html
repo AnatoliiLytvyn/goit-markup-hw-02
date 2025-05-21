@@ -4,127 +4,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WebStudio</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+  <title>Web Studio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- Modern Normalize -->
+  <link rel="stylesheet" href="modern-normalize.css" />
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
-
   <header class="header">
     <div class="container header-container">
-      <a href="./index.html" class="logo">Web<span class="logo-accent">Studio</span></a>
-      <nav class="nav">
+      <a href="#" class="logo">Web<span class="logo-accent">Studio</span></a>
+      <nav class="navigation">
         <ul class="nav-list">
-          <li><a class="nav-link" href="./index.html">Studio</a></li>
-          <li><a class="nav-link" href="#">Portfolio</a></li>
-          <li><a class="nav-link" href="#">Contacts</a></li>
+          <li><a href="#" class="nav-link">Studio</a></li>
+          <li><a href="#" class="nav-link">Portfolio</a></li>
+          <li><a href="#" class="nav-link">Contacts</a></li>
         </ul>
       </nav>
-      <address class="contacts">
-        <ul class="contact-list">
-          <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
+      <ul class="contact-list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="portfolio-section">
       <div class="container">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-button">Order Service</button>
-      </div>
-    </section>
-
-    <section class="features section">
-      <div class="container">
-        <h2 class="visually-hidden">Our Features</h2>
-        <ul class="features-list">
-          <li>
-            <h3>Strategy</h3>
-            <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-          </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-          </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
-          </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="portfolio section">
-      <div class="container">
-        <h2 class="section-title">Our Portfolio</h2>
+        <h1 class="section-title">Our Portfolio</h1>
         <ul class="portfolio-list">
-          <li>
-            <img src="./images/portfolio-1.jpg" alt="Banking App" />
-            <h3>Banking App</h3>
-            <p>App</p>
+          <li class="portfolio-item">
+            <img src="images/portfolio-1.jpg" alt="Technocrack" width="370" height="294" />
+            <div class="portfolio-info">
+              <h2 class="portfolio-title">Technocrack</h2>
+              <p class="portfolio-description">Website</p>
+            </div>
           </li>
-          <li>
-            <img src="./images/portfolio-2.jpg" alt=" Cashless Payment" />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+          <li class="portfolio-item">
+            <img src="images/portfolio-2.jpg" alt="New Orlean vs Golden Star poster" width="370" height="294" />
+            <div class="portfolio-info">
+              <h2 class="portfolio-title">
+                New Orlean vs Golden Star poster
+              </h2>
+              <p class="portfolio-description">Design</p>
+            </div>
           </li>
-          <li>
-            <img src="./images/portfolio-3.jpg" alt="Meditation App" />
-            <h3>Meditation App</h3>
-            <p>App</p>
+          <li class="portfolio-item">
+            <img src="images/portfolio-3.jpg" alt="Seafood Restaurant" width="370" height="294" />
+            <div class="portfolio-info">
+              <h2 class="portfolio-title">Seafood Restaurant</h2>
+              <p class="portfolio-description">App</p>
+            </div>
           </li>
-          <li>
-            <img src="./images/portfolio-4.jpg" alt="Taxi Service" />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+          <li class="portfolio-item">
+            <img src="images/portfolio-4.jpg" alt="Prime Project" width="370" height="294" />
+            <div class="portfolio-info">
+              <h2 class="portfolio-title">Prime Project</h2>
+              <p class="portfolio-description">Marketing</p>
+            </div>
           </li>
-          <li>
-            <img src="./images/portfolio-5.jpg" alt="Screen Illustrations" />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+          <li class="portfolio-item">
+            <img src="images/portfolio-5.jpg" alt="Boxes Project" width="370" height="294" />
+            <div class="portfolio-info">
+              <h2 class="portfolio-title">Boxes Project</h2>
+              <p class="portfolio-description">App</p>
+            </div>
           </li>
-          <li>
-            <img src="./images/portfolio-6.jpg" alt="Online Courses" />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+          <li class="portfolio-item">
+            <img src="images/portfolio-6.jpg" alt="Inspiration has no Borders" width="370" height="294" />
+            <div class="portfolio-info">
+              <h2 class="portfolio-title">Inspiration has no Borders</h2>
+              <p class="portfolio-description">Website</p>
+            </div>
           </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="team section">
-      <div class="container">
-        <h2 class="section-title">Our Team</h2>
-        <ul class="team-list">
-          <li>
-            <img src="./images/mark-guerrero.jpg.jpg" alt="Mark Guerrero" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+          <li class="portfolio-item">
+            <img src="images/portfolio-7.jpg" alt="Limited Edition Magazine" width="370" height="294" />
+            <div class="portfolio-info">
+              <h2 class="portfolio-title">Limited Edition Magazine</h2>
+              <p class="portfolio-description">Design</p>
+            </div>
           </li>
-          <li>
-            <img src="./images/tom-ford.jpg.jpg" alt="Tom Ford" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/camila-garcia.jpg.jpg" alt="Camila Garcia" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img src="./images/daniel-wilson.jpg.jpg" alt="Daniel Wilson" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+          <li class="portfolio-item">
+            <img src="images/portfolio-8.jpg" alt="LAB Project" width="370" height="294" />
+            <div class="portfolio-info">
+              <h2 class="portfolio-title">LAB Project</h2>
+              <p class="portfolio-description">Marketing</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -132,14 +108,24 @@
   </main>
 
   <footer class="footer">
-    <div class="container">
-      <a href="./index.html" class="footer-logo">Web<span class="footer-logo-accent">Studio</span></a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-      </p>
+    <div class="container footer-container">
+      <a href="#" class="logo">Web<span class="logo-accent">Studio</span></a>
+      <address class="footer-address">
+        <ul class="address-list">
+          <li>
+            <a href="https://maps.google.com/?q=Kyiv, Lesi Ukrainky Ave, 26" target="_blank" rel="noopener noreferrer"
+              class="address-link">Kyiv, Lesi Ukrainky Ave, 26</a>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="address-link">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </address>
     </div>
   </footer>
-
 </body>
 
 </html>
