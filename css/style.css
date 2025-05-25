@@ -128,58 +128,47 @@ ul {
   color: var(--color-text);
 }
 
-.section-title {
+..section-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
   color: var(--color-dark);
-  margin: bottom 72px;
+  margin-bottom: 72px;
 }
 
-.team-list .team-item
-.portfolio-list .portfolio-item {
-  background-color: var(--color-white);
-}
-
-.portfolio{
-  background-color: var(--color-bg-light);
-}
-
-.footer {
-  background-color:#2e2f42;
-  text-align: center;
-}
-  
- .footer-text {
+.footer-text {
   max-width: 264px;
-  margin: 16px auto 0; 
+  margin: 16px auto 0;
   color: var(--color-bg-light);
+}
 
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-  }
-  
-  .team {
-    background-color:#f4f4fd
-  }
-  .team-item {
-    background-color: #ffffff;
-  }
-  
-  .features-list {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0 24px;  
-  }
+/* Розділені селектори з .footer-text */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+}
