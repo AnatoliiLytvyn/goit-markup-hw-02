@@ -1,6 +1,6 @@
 :root {
   --color-primary: #4d5ae5;
-  --color-accent: #404bbf;
+  --color-accent: #0d0e13;
   --color-dark: #2e2f42;
   --color-text: #434455;
   --color-white: #ffffff;
@@ -128,7 +128,7 @@ ul {
   color: var(--color-text);
 }
 
-..section-title {
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
