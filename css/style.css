@@ -141,7 +141,10 @@ ul {
 .footer-text {
   max-width: 264px;
   margin: 16px auto 0;
-  color: var(--color-bg-light);
+  color: var(--color-bg-light); /* #f4f4fd */
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Розділені селектори з .footer-text */
