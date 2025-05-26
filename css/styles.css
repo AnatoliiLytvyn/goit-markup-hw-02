@@ -99,11 +99,12 @@ body {
   text-transform: capitalize;
 }
 
-.features-title {
+.features-section {
+  background-color: #f4f4fd;
   text-transform: capitalize;
 }
 
-.portfolio-item {
+.feature-item {
   background-color: #ffffff;
 }
 
@@ -143,7 +144,7 @@ body {
   color: #f4f4fd;
 }
 
-.contacts-block {
+.contact-block {
   font-style: normal;
 }
 
@@ -154,7 +155,7 @@ body {
   color: #434455;
 }
 
-.contact-link:hover
+.contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
 }
