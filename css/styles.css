@@ -105,7 +105,6 @@ body {
 
 .features-list {
   list-style: none;
-  display: flex;
 }
 
 .feature-item {
