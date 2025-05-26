@@ -23,7 +23,7 @@ body {
 }
 
 .header-logo-accent {
-  color: #f4f4fd;
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -107,8 +107,8 @@ body {
   list-style: none;
 }
 
-.features-item {
-  background-color: #FFFFFF;
+.feature-item {
+  background-color: #FFF;
 }
 
 .features-text,
