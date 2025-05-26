@@ -1,17 +1,7 @@
-:root {
-  --color-primary: #4d5ae5;
-  --color-accent: #0d0e13;
-  --color-dark: #2e2f42;
-  --color-text: #434455;
-  --color-white: #ffffff;
-  --color-bg-light: #f4f4fd;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-text);
-  background-color: var(--color-white);
-  margin: 0;
+  background-color: #ffffff;
 }
 
 a {
@@ -44,11 +34,15 @@ ul {
 }
 
 .header-logo-accent {
-  color: var(--color-dark);
+  color: #2e2f42";
 }
 
 .footer-logo-accent {
-  color: var(--color-bg-light);
+  color: #f4f4fd
+}
+
+.page-footer {
+  background-color: #2e2f42;
 }
 
 .nav-link {
@@ -56,12 +50,11 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-dark);
-}
+  color: #2e2f42
 
 .nav-link:hover
 .nav-link:focus {
-  color: var(--color-accent);
+  color: #404bbf;
 }
 
 .contacts {
@@ -72,16 +65,15 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text);
-}
+  color: #434455
 
-.contact-link:hover
+.contact-link:hover,
 .contact-link:focus {
-  color: var(--color-accent);
+  color: #404bbf
 }
-
+f
 .hero {
-  background-color: var(--color-dark);
+  background-color: 2e2f42;
   text-align: center;
 }
 
@@ -89,7 +81,7 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: var(--color-white);
+  color: #ffffff;
   margin-bottom: 48px;
 }
 
@@ -99,16 +91,15 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--color-white);
-  background-color: var(--color-primary);
-  cursor: pointer;
+  color: #fff;
+  background-color: #4d5ae5d
   border: none;
   border-radius: 4px;
 }
 
 .hero-button:hover
 .hero-button:focus {
-  background-color: var(--color-accent);
+  background-color: #404bbf;
 }
 
 .features,
