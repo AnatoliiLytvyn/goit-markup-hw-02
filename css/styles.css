@@ -90,6 +90,15 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.features-title {
+  text-transform: capitalize;
+}
+
+.portfolio-item {
+  background-color: #ffffff;
 }
 
 .features-text,
@@ -109,6 +118,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.team {
+  background-color: #f4f4fd;
 }
 
 .footer {
