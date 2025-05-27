@@ -99,6 +99,10 @@ body {
   text-transform: capitalize;
 }
 
+.portfolio-item {
+  background-color: #FFFFFF;
+}
+
 .features-section {
   background-color: #f4f4fd;
 }
