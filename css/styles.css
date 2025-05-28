@@ -139,6 +139,10 @@ body {
   background-color: #f4f4fd;
 }
 
+.portfolio-item {
+  background-color: #FFFFFF;
+}
+
 .footer {
   background-color: #2e2f42;
 }
